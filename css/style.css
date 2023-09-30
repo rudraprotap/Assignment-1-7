@@ -1,0 +1,39 @@
+/* div{
+  background-color: red;
+  width: 150px;
+  height: 300px;
+  border-radius: 50px 50px 3px 3px;
+} */
+/* header style */
+.head-tittle > h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  font-style: bold;
+}
+.head-tittle > p{
+  color: gray;
+}
+.head-tittle > button{
+  padding: 10px 20px;
+  background-color: palevioletred;
+  color: white;
+  font: bold;
+  border: none;
+  border-radius: 3px;
+  
+}
+.head-div{
+  display: flex;
+  justify-content: space-between;
+}
+.head-div > .flower{
+  margin-right: 200px;
+  margin-top: 100px;
+}
+.head-tittle{
+  margin-left: 100px;
+  margin-top: 70px;
+}
+header{
+  background-color: antiquewhite;
+}
