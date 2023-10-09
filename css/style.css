@@ -43,6 +43,7 @@ main > .main-tittle{
   align-items: center;
   text-align: center;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .tree{
@@ -82,5 +83,30 @@ main > .main-tittle{
   gap: 180px;
 }
 .flowers-tittle > h3{
-  
+  text-decoration: underline;
+}
+
+.pictures{
+  display: flex;
+  justify-content: center;
+  gap: 220px;
+  margin-top: 60px;
+}
+.pic-tittle{
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+.pic-tittle>div>h5{
+  color: gray;
+}
+.service{
+  background-color:antiquewhite;
+  width: 80%;
+ /* display: flex; */
+ justify-content: center;
+ margin-left: 100px;
+}
+.pictures > div > img{
+  margin-top: 30px;
 }
