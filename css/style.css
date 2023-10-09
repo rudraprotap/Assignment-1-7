@@ -102,11 +102,33 @@ main > .main-tittle{
 }
 .service{
   background-color:antiquewhite;
-  width: 80%;
+  width: 70%;
  /* display: flex; */
  justify-content: center;
- margin-left: 100px;
+ margin-left: 180px;
 }
 .pictures > div > img{
   margin-top: 30px;
+}
+.offer{
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  margin-top: 100px;
+}
+.hot-deal{
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.hot-deal>h2{
+  margin-left: 20px;
+}
+.hot-deal > button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkgoldenrod;
+  margin-left: 100px;
+  font: bold;
+  
 }
